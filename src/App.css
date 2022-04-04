@@ -1,38 +1,104 @@
-.App {
+body {
+  background-color: #c2c2c2;
+}
+section.listtag {
+  padding: 50px 25px;
+}
+.flipcard img {
+  max-width: 118px;
+  margin: 10px auto;
+}
+/* .listtag {
+  display: inline-block;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.flipcard {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.flipk > div {
+  display: block;
+  float: left;
+  width: 100%;
+  max-width: 300px;
+  margin: 0px auto;
+} */
+a {
+  text-align: center;
+  text-decoration: none;
+}
+.btnadd {
+  padding: 10px 0px;
+}
+.commonbtn {
+  color: rgb(255 255 255 / 87%);
+  background-color: #2874f0;
+  padding: 9px 23px;
+  border-radius: 4px;
+  border-color: #3474f0;
+  box-shadow: none;
+}
+.headcolor {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.footerp {
+  font-size: 18px;
+  color: #fff;
+  margin: 0px;
+  padding: 17px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.footerbg {
+  background-color: #2874f0;
+   
+}
+.detaillist.listt {
+  width: 100%;
+  max-width: 396px;
+  margin: 30px auto;
+  background: #fff;
+}
+
+.product-img img {
+  width: 100%;
+  max-width: 133px;
+}
+
+.product-img {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-card {
+  text-align: center;
+    padding: 0px 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h6.salehead {
+  font-size: 18px;
+  margin: 0px;
+  padding: 15px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3.headtitle {
+  font-size: 16px;
+}
+h6 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 15px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.twobtn button {
+  margin-bottom: 21px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section.p-listt {
+  height: 100vh;
+}
+.btnadd a{
+  text-decoration: none;
 }
